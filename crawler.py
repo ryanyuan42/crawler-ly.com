@@ -89,7 +89,7 @@ def is_empty(lst):
 def run():
 	# UI
 	page = 1
-	filename = input('请输入你想保存数据的文件名（example: xxx.csv）: ')
+	filename = input('please type in your filename (example: xxx.csv): ')
 	sample = open(filename, 'w')
 
 	data = 0
