@@ -134,6 +134,7 @@ def run():
 		page += 1
 
 	sample.close()
+	input('抓取任务结束...')
 
 if __name__ == '__main__':
 	s = requests.session()	
