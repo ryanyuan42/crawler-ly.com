@@ -1,6 +1,6 @@
 from distutils.core import setup
 import requests.certs
-import py2exe
+import pyinstaller
 
 build_exe_options = {"include_files":[(requests.certs.where(),'cacert.pem')]}
 
